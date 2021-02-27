@@ -8,8 +8,8 @@ const { PassThrough } = require('stream')
 const finished = require('end-of-stream')
 const {
   VALUE_MAX_SIZE,
-  Hypersign
-} = require('@hyperswarm/hypersign')
+  DWebSign
+} = require('@dswarm/dwebsign')
 const { Mutable } = require('./messages')
 
 // PUT_VALUE_MAX_SIZE (1000B) + packet overhead (i.e. the key etc.)
@@ -134,7 +134,7 @@ class ImmutableStore {
     }
   }
 }
-class MutableStore extends Hypersign {
+class MutableStore extends DWebSign {
   constructor (dht, store) {
     super()
     this.dht = dht
