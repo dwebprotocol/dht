@@ -260,7 +260,7 @@ Emitted when a lookup is received.
 
 ## CLI
 
-You can start a DHT node in the command line, using the [@dswarm/cli](https://github.com/cli) package:
+You can start a DHT node in the command line, using the [@dswarm/cli](https://github.com/dwebprotocol/dswarm-cli) package:
 
 ```sh
 npm install -g @dswarm/cli
