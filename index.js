@@ -15,9 +15,9 @@ const DEFAULT_BOOTSTRAP = [
 // 20 mins but will be round(EPH_AFTER + random() * EPH_AFTER / 2), so will be between 20-30 mins
 const EPH_AFTER = 1000 * 60 * 20
 
-module.exports = opts => new HyperDHT(opts)
+module.exports = opts => new DWebDHT(opts)
 
-class HyperDHT extends DHT {
+class DWebDHT extends DHT {
   constructor (opts) {
     if (!opts) opts = {}
     if (opts.bootstrap === undefined) opts.bootstrap = DEFAULT_BOOTSTRAP
