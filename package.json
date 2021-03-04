@@ -1,10 +1,10 @@
 {
-  "name": "@hyperswarm/dht",
-  "version": "4.0.1",
-  "description": "The DHT backing the HyperSwarm stack",
+  "name": "@dswarm/dht",
+  "version": "1.0.0",
+  "description": "The DHT backing the dWeb network.",
   "main": "index.js",
   "dependencies": {
-    "@hyperswarm/hypersign": "^2.0.0",
+    "@dswarm/dwebsign": "^1.0.0",
     "dht-rpc": "^4.8.0",
     "end-of-stream": "^1.4.1",
     "guard-timeout": "^2.0.0",
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperswarm/dht.git"
+    "url": "https://github.com/dwebprotocol/dht.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperswarm/dht/issues"
+    "url": "https://github.com/dwebprotocol/dht/issues"
   },
-  "homepage": "https://github.com/hyperswarm/dht"
+  "homepage": "https://dwebx.org"
 }
